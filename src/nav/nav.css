@@ -1,0 +1,65 @@
+.nav{
+    display:flex;
+    background-color: #0F1111;
+    color:white;
+    height: 55px;
+    align-items: center;
+}
+.nav2{
+    background-color:#232f3e;
+    color:white;
+    height:39px;
+    font-size:14px;
+}
+.logo{margin-left:15px;
+    margin :20px;
+   
+}
+.logo1{
+    width:100px
+}
+.font{
+    padding-top:5px;
+ line-height: 0px;
+}
+.adr{
+    display:flex;
+    width:135px;
+    margin:0 10px 10px 10px;
+    margin-top:10px;
+    padding:5px;
+}
+.adj{ margin:5px;
+    font-size: 10px;
+}
+.srch{
+    display:flex;
+    margin-left:15px;
+width:50%;   
+}
+.srch1{
+    width:100%;
+    height:28px;
+    border-radius: 5px 5px 5px 5px;
+}
+.nation{
+    margin-left:45px;
+}
+.log{margin:5px 0 0 45px;
+    width:fit-content;
+    /* border: solid white; */
+}
+.hel{
+    font-size:11px;
+}
+.acc{
+    font-size:90%;
+    line-height:1px;
+}
+.return{
+    font-size:15px;
+    margin:45px;
+}
+.cart{
+    margin:15px;
+}

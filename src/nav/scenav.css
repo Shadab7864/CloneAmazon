@@ -1,0 +1,17 @@
+.list{
+display:flex;
+flex-direction: column;
+justify-content:first baseline;
+
+}
+.list1{
+    display:block;
+}
+.head{
+    background-color: #232f3e;
+    padding:5px;
+    height:40px;
+    color:white;
+    font-size:15px;
+    font-weight:300;
+}
