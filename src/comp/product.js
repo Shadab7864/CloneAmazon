@@ -1,29 +1,38 @@
-import React from "react"
-import "./prod.css"
+import React from "react";
+import "./prod.css";
+import { useStateValue } from "./provider";
 
+function Product({ id, title, img, price }) {
+    const [{ cart }, dispatch] = useStateValue();
 
+    const addToCart = () => {
+        dispatch({
+            type: "ADD_TO_CART",
+            item: {
+                id: id,
+                title: title,
+                img: img,
+                price: price,
+            },
+        });
+    };
 
-
-function product({ Id, title, img, price }) {
     return (
         <div className="prod">
             <div className="prodinfo">
-                <span>{Id}</span>
+                <span>{id}</span>
                 <span>{title}</span>
-
-            </div>
-            <div >
-                <img className="image" src={img} alt="" />          
-                <button className="prodbut">Add to cart</button>  <div className="price">
+                <div className="price">
                     <small>₹</small>
                     {price}
                 </div>
-
-
             </div>
-
+            <div>
+                <img className="image" src={img} alt="" />
+                <button className="prodbut" onClick={addToCart} >Add to cart</button>
+            </div>
         </div>
     );
+}
 
-};
-export default product;
+export default Product;

@@ -1,17 +1,24 @@
-.list{
-display:flex;
-flex-direction: column;
-justify-content:first baseline;
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
 
 }
-.list1{
-    display:block;
+
+.list1 {
+    display: block;
 }
-.head{
+
+.head {
     background-color: #232f3e;
-    padding:5px;
-    height:40px;
-    color:white;
-    font-size:15px;
-    font-weight:300;
+    padding: 5px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.sign_but {
+    color: white;
+    text-align: left;
 }

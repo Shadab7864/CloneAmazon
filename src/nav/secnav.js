@@ -8,6 +8,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import "./scenav.css"
+import { Link } from "react-router-dom";
 
 
 
@@ -69,7 +70,7 @@ export default function TemporaryDrawer() {
                             onClose={toggleDrawer(anchor, false)}
                         >
                             <div className="head">
-                                Hello,<Button color="inherit" size="medium">Sign in</Button>
+                                Hello,<Link to="/login"> <Button color="inherit" size="medium"><span className="sign_but">Sign in</span></Button></Link>
                             </div>
                             {list(anchor)},
                         </Drawer>

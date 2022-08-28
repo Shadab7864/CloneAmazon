@@ -1,0 +1,85 @@
+.login_box {
+    display: flex;
+    justify-self: center;
+    border: solid grey 0.5px;
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 40%;
+    margin-left: 40%;
+    height: 300px;
+}
+
+.logo_cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.login_logo {
+    width: 130px;
+}
+
+.login_text {
+    font-size: 25px;
+}
+
+.login_emailtxt {
+    margin-top: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.border {
+    margin: 20px;
+    width: 170px;
+    height: 35px
+}
+
+.txt_cont {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.login_button {
+    background-color: gold;
+    color: black;
+    width: 305px;
+    margin: 15px 0 15px 0;
+    height: 30px;
+}
+
+.login_ip {
+    width: 297px;
+    height: 25px;
+}
+
+.txt {
+    display: block;
+    width: 297px;
+    font-size: 13px;
+}
+
+.new_txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.sign_up {
+    display: flex;
+    margin-right: 30%;
+    margin-left: 40%;
+    width: 350px;
+}
+
+.sign_but {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    width: 400px;
+    height: 30px;
+}

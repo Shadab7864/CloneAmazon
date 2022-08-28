@@ -1,18 +1,18 @@
 import React from "react"
-import {Home} from "./Home/home"
-import { BrowserRouter,Routes,Route,Link } from "react-router-dom"
+import { Home } from "./Home/home"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import Login from "./login"
 
 
-export default class App extends React.Component
-{
-    render()
-    {
-        return(
+export default class App extends React.Component {
+    render() {
+        return (
             <div>
                 <BrowserRouter>
-                <Routes>  
-                <Route path="/" element={<Home/>}/>
-                </Routes>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/login" element={<Login />} />
+                    </Routes>
                 </BrowserRouter>
             </div>
         )
