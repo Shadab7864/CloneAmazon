@@ -13,7 +13,7 @@ function product({ Id, title, img, price }) {
 
             </div>
             <div >
-                <img className="image" src={img} alt="" />
+                <img className="image" src={img} alt="" />          
                 <button className="prodbut">Add to cart</button>  <div className="price">
                     <small>₹</small>
                     {price}
