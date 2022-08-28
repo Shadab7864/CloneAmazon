@@ -70,7 +70,7 @@ export default function TemporaryDrawer() {
                             onClose={toggleDrawer(anchor, false)}
                         >
                             <div className="head">
-                                Hello,<Link to="/login"> <Button color="inherit" size="medium"><span className="sign_but">Sign in</span></Button></Link>
+                                Hello,<Link to="/login"> <span className="sign_but">Sign in</span></Link>
                             </div>
                             {list(anchor)},
                         </Drawer>
