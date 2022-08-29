@@ -73,7 +73,7 @@ export default function TemporaryDrawer() {
                         </Drawer>
                     </React.Fragment>
                 ))}   <Button color="inherit" size="small" >Best Seller</Button> <Button color="inherit" size="small" >Mobiles</Button> <Button color="inherit" size="small" >Today's Deals</Button> <Button color="inherit" size="small" >Customer Service</Button> <Button color="inherit" size="small" >Books</Button> <Button color="inherit" size="small" >Electronics</Button>
-                <Button color="inherit" size="small" >prime</Button> <Button color="inherit" size="small" >Fashion</Button> <Button color="inherit" size="small" >New Releases</Button> <Button color="inherit" size="small" >Home & Kitchen</Button> <Button color="inherit" size="small"> Coupon </Button>    <Button color="inherit" size="small" > Amazon Pay </Button>             <a href="https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping&hl=en_IN&gl=US" target={"_blank"} >    <Button >     Download  App  </Button></a>
+                <Button color="inherit" size="small" >prime</Button> <Button color="inherit" size="small" >Fashion</Button> <Button color="inherit" size="small" >New Releases</Button> <Button color="inherit" size="small" >Home & Kitchen</Button> <Button color="inherit" size="small"> Coupon </Button>    <Button color="inherit" size="small" > Amazon Pay </Button>             <a href="https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping&hl=en_IN&gl=US"  >    <Button >     Download  App  </Button></a>
             </div>
         </div>
     );
