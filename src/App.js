@@ -1,6 +1,6 @@
 import React from "react"
 import { Home } from "./Home/home"
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route} from "react-router-dom"
 import Login from "./login"
 
 

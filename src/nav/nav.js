@@ -14,11 +14,11 @@ function Nav() {
     const [{ cart, user }, dispatch] = useStateValue();
     return (
         <Grid>
-            <Grid sm={1} lg="auto" className="nav">
+            <Grid className="nav">
                 <div className="logo">
                     <img src="https://i0.wp.com/zeevector.com/wp-content/uploads/LOGO/Amazon-India-Logo-PNG-White2.png?fit=561%2C160&ssl=1" className="logo1" />
                 </div>
-                <Grid sm="0" lg="auto" md="auto" className="adr">
+                <Grid className="adr">
                     <span className="font"> <AddLocationAltIcon fontSize="small" /></span>
                     <span className="adj"> Hello <br />select your address</span>
                 </Grid>
@@ -29,13 +29,13 @@ function Nav() {
                     Nation
                 </div>
                 <Link to="/login">
-                    <Grid sm="auto" className="log">
+                    <Grid className="log">
 
                         <span className="hel">Hello,</span>
                         <span className="acc">Sign In</span><br />
                         <span className="acc">Accounts&Lists</span>
                     </Grid> </Link>
-                <Grid className="return" sm="auto" md="auto" lg="auto">
+                <Grid className="return">
                     <Button sx={{ color: "white" }} > Returns & Orders </Button>
                 </Grid>
                 <Grid className="cart">
@@ -45,7 +45,7 @@ function Nav() {
                     </span>
                 </Grid>
             </Grid>
-            <Grid sm="auto" lg="auto" md="auto" className="nav2">
+            <Grid  className="nav2">
                 <TemporaryDrawer />
             </Grid>
         </Grid>
